@@ -14,7 +14,7 @@ export type Dipendente = {
 export type Developer = Dipendente & {
     livelloEsperienza:'senior' | 'mid' | 'junior',
     linguaggi?: string[],
-    certificazioni: string[] | null
+    certificazioni: string[]
 }
 
 export type ProjectManager = Dipendente & {
