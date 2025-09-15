@@ -4,7 +4,7 @@ export type Dipendente = {
     cognome: string,
     annoNascita: number
     sesso: 'm' | 'f'
-    annoDiServizio: [number,...number[]],
+    annoDiServizio: number[],
     readonly emailAziendale: string
     contratto: 'indeterminato' | 'determinato' | 'freelance'
 }
