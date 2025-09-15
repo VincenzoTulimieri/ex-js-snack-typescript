@@ -1,4 +1,4 @@
-import { Dipendente } from "./type"
+import { Dipendente, Developer, ProjectManager } from "./type"
 
 // Snack 1 
 let data: unknown
@@ -23,6 +23,31 @@ const person: Dipendente = {
   annoNascita: 1995,
   sesso: 'm',
   annoDiServizio: [2021, 2022, 2023],
-  emailAziendale:'vincenzo22@gmail.com',
-  contratto: 'freelance'
+  emailAziendale: 'vincenzo22@gmail.com',
+  contratto: 'determinato'
+}
+
+// snack 3 
+const sviluppatore: Developer = {
+  nome: 'Vincenzo',
+  cognome: 'Tulimieri',
+  annoNascita: 1995,
+  sesso: 'm',
+  annoDiServizio: [2021, 2022, 2023],
+  emailAziendale: 'vincenzo22@gmail.com',
+  contratto: 'determinato',
+  livelloEsperienza: 'junior',
+  certificazioni: ['Boolean']
+}
+
+const manager: ProjectManager = {
+  nome: 'Marco',
+  cognome: 'Rossi',
+  annoNascita: 1990,
+  sesso: 'm',
+  annoDiServizio: [2018, 2019, 2020, 2021, 2022, 2023],
+  emailAziendale: 'vincenzo22@gmail.com',
+  contratto: 'indeterminato',
+  teamSize: 0,
+  stakeholderPrincipali: []
 }
